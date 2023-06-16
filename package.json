@@ -1,11 +1,15 @@
 {
+  "homepage": "https://Matitzo.github.io/ToDoList",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "snowpack dev",
     "build": "snowpack build"
   },
   "dependencies": {
     "bootstrap-icons": "^1.10.5",
     "canvas-confetti": "^1.2.0",
+    "gh-pages": "^5.0.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
